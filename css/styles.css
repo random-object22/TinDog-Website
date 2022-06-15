@@ -1,0 +1,133 @@
+/****************** HTML ELEMENTS *******************/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lilita One', cursive;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/****************** CLASSES *******************/
+
+.big-heading {
+  color: #ffffff;
+  font-family: 'Lilita One', cursive;
+  font-size: 4rem;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-image{
+  padding: 0 5px;
+}
+
+.footer-text {
+  padding: 1%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.pricing-column {
+  padding-bottom: 3%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  margin-right: 30%;
+  margin-top: 15%;
+}
+
+.title-cta {
+  color: #ffffff;
+  padding: 1% 1% 2%;
+}
+
+
+/****************** IDs *******************/
+
+#cta {
+  background-color: #ff4c68;
+  padding: 3% 7%;
+  text-align: center;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+#footer {
+  background-color: #ffffff;
+  padding: 3%;
+  text-align: center;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-aling: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+#title {
+  background-color: #ff4C78;
+}
+
+/****************** MEDIA QUERIES *******************/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-right: 0;
+  }
+}
